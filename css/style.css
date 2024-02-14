@@ -1,0 +1,82 @@
+body {
+    background-color: #ffc0cb;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#left_heart {
+    width: 890px;
+    height: 500px;
+    transition: all 0.5s ease;
+    z-index: 2;
+    margin: auto;
+    position:absolute;
+}
+
+#right_heart {
+    width: 890px;
+    height: 500px;
+    transition: all 0.5s ease;
+    z-index: 2;
+    margin: auto;
+    position:absolute;
+}
+
+#heartL {
+    width: 890px;
+    height: 500px;
+    transition: all 0.5s ease;
+    z-index: 1;
+    margin: auto;
+    position:absolute;
+}
+
+#heartR {
+    width: 890px;
+    height: 500px;
+    transition: all 0.5s ease;
+    z-index: 1;
+    margin: auto;
+    position:absolute;
+}
+
+#rope {
+    width: 890px;
+    height: 500px;
+    transition: all 0.5s ease;
+    z-index: 3;
+    margin: auto;
+    position:absolute;
+    transform: translate(0px, -30px);
+}
+
+#back2 {
+    width: 890px;
+    height: 500px;
+    z-index: -1;
+    margin: auto;
+    position:absolute;
+}
+
+#gif1 {
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    margin: auto;
+    position:absolute;
+    transform: translate(80px, -70px);
+}
+
+#gif2 {
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+    margin: auto;
+    position:absolute;
+    transform: translate(-80px, -80px);
+}
